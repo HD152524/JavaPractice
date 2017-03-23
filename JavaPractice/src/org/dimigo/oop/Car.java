@@ -23,6 +23,19 @@ public class Car {
     public Car(){
 
     }
+    public Car(String company, String model, String color, int maxSpeed, int price) {
+        this.company = company;
+        this.model = model;
+        this.color = color;
+        this.maxSpeed = maxSpeed;
+        this.price = price;
+    }
+    public Car(String company,String model,String color, int maxSpeed){
+        this(company,model,color,maxSpeed,0);
+    }
+    public Car(String company,String model,String color){
+        this(company,model,color,0);
+    }
     public String getCompany(){
         return company;
     }
@@ -38,7 +51,7 @@ public class Car {
     public int getPrice()
     {
         return price;
-    }
+    }/*
     public void setCompany(String company){
         this.company=company;
     }
@@ -54,7 +67,7 @@ public class Car {
     public void setPrice(int price){
         this.price=price;
     }
-
+*/
 
 
 }

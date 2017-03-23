@@ -18,9 +18,10 @@ public class CarTest {
     public static void main(String [] args){
 
         Car[] cars= new Car[3];
-        for(int i=0;i<3;i++)
-            cars[i]=new Car();
-        cars[0].setCompany("현대자동차");
+        cars[0]=new Car("현대자동차","제네시스","검정색",225,50000000);
+        cars[1] = new Car("기아자동차","K7","흰색",246);
+        cars[2] = new Car("삼성자동차","SM7","회색");
+        /*cars[0].setCompany("현대자동차");
         cars[0].setModel("제네시스");
         cars[0].setColor("검정색");
         cars[0].setMaxSpeed(225);
@@ -34,7 +35,7 @@ public class CarTest {
         cars[2].setModel("SM7");
         cars[2].setColor("회색");
         cars[2].setMaxSpeed(200);
-        cars[2].setPrice(38000000);
+        cars[2].setPrice(38000000);*/
         System.out.println("<< 자동차 목록 >>");
         for(int i=0;i<3;i++){
             System.out.println("제조사명 : "+cars[i].getCompany());
