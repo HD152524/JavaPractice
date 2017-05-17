@@ -1,4 +1,4 @@
-package org.dimigo.inheritance;
+package org.dimigo.abstractclass;
 
 /**
  * Created by pc on 2017-05-12.
@@ -10,7 +10,7 @@ public class SmartPhoneTest {
             System.out.println(tmp);
             tmp.turnOn();
             tmp.pay();
-            tmp.useSpecialFunction(tmp);
+            tmp.useSpecialFunction();
             tmp.turnOff();
 
         }
