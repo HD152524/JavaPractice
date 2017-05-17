@@ -10,7 +10,7 @@ public class SmartPhoneTest {
             System.out.println(tmp);
             tmp.turnOn();
             tmp.pay();
-            tmp.useSpecialFunction(tmp);
+            tmp.useSpecialFunction();
             tmp.turnOff();
         }
     }
