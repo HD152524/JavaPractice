@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3ee7c53-2ee6-451f-b796-962e03a18bde" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaPractice/src/org/dimigo/abstractclass/Galaxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaPractice/src/org/dimigo/abstractclass/IPhone.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaPractice/src/org/dimigo/abstractclass/SmartPhone.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaPractice/src/org/dimigo/abstractclass/SmartPhoneTest.java" />
+    <list default="true" id="c3ee7c53-2ee6-451f-b796-962e03a18bde" name="Default" comment="DB">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaPractice/src/org/dimigo/interfaces/DBTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaPractice/src/org/dimigo/interfaces/IDBManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaPractice/src/org/dimigo/interfaces/OracleDB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JavaPractice/src/org/dimigo/interfaces/SybaseDB.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaPractice/src/org/dimigo/inheritance/SmartPhone.java" afterPath="$PROJECT_DIR$/JavaPractice/src/org/dimigo/inheritance/SmartPhone.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaPractice/src/org/dimigo/inheritance/SmartPhoneTest.java" afterPath="$PROJECT_DIR$/JavaPractice/src/org/dimigo/inheritance/SmartPhoneTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,12 +22,63 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="SmartPhoneTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SmartPhoneTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaPractice/src/org/dimigo/abstractclass/SmartPhoneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            <state relative-caret-position="253">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IDBManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaPractice/src/org/dimigo/interfaces/IDBManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SybaseDB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaPractice/src/org/dimigo/interfaces/SybaseDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+              <folding>
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaPractice/src/org/dimigo/interfaces/DBTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OracleDB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaPractice/src/org/dimigo/interfaces/OracleDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding>
+                <element signature="e#142#143#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,8 +87,15 @@
         <entry file="file://$PROJECT_DIR$/JavaPractice/src/org/dimigo/abstractclass/SmartPhone.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#396#397#0" expanded="false" />
+                <element signature="e#450#451#0" expanded="false" />
+                <element signature="e#477#478#0" expanded="false" />
+                <element signature="e#531#532#0" expanded="false" />
+                <element signature="e#803#804#0" expanded="false" />
+                <element signature="e#900#901#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,8 +104,15 @@
         <entry file="file://$PROJECT_DIR$/JavaPractice/src/org/dimigo/abstractclass/Galaxy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding />
+              <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <folding>
+                <element signature="e#204#205#0" expanded="false" />
+                <element signature="e#248#249#0" expanded="false" />
+                <element signature="e#271#272#0" expanded="false" />
+                <element signature="e#322#323#0" expanded="false" />
+                <element signature="e#361#362#0" expanded="false" />
+                <element signature="e#415#416#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,7 +122,14 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
               <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-              <folding />
+              <folding>
+                <element signature="e#204#205#0" expanded="false" />
+                <element signature="e#248#249#0" expanded="false" />
+                <element signature="e#271#272#0" expanded="false" />
+                <element signature="e#322#323#0" expanded="false" />
+                <element signature="e#352#353#0" expanded="false" />
+                <element signature="e#408#409#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,6 +139,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -119,6 +190,10 @@
         <option value="$PROJECT_DIR$/JavaPractice/src/org/dimigo/abstractclass/IPhone.java" />
         <option value="$PROJECT_DIR$/JavaPractice/src/org/dimigo/abstractclass/SmartPhone.java" />
         <option value="$PROJECT_DIR$/JavaPractice/src/org/dimigo/abstractclass/SmartPhoneTest.java" />
+        <option value="$PROJECT_DIR$/JavaPractice/src/org/dimigo/interfaces/OracleDB.java" />
+        <option value="$PROJECT_DIR$/JavaPractice/src/org/dimigo/interfaces/SybaseDB.java" />
+        <option value="$PROJECT_DIR$/JavaPractice/src/org/dimigo/interfaces/DBTest.java" />
+        <option value="$PROJECT_DIR$/JavaPractice/src/org/dimigo/interfaces/IDBManager.java" />
       </list>
     </option>
   </component>
@@ -150,8 +225,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,65 +281,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="inheritance" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaPractice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaPractice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaPractice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dimigo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaPractice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaPractice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaPractice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dimigo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="abstractclass" />
+              <option name="myItemId" value="interfaces" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,7 +325,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SmartPhoneTest">
+  <component name="RunManager" selected="Application.DBTest">
     <configuration default="false" name="CarTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -371,6 +394,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="org.dimigo.inheritance.SmartPhoneTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaPractice" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DBTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.dimigo.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="org.dimigo.interfaces.DBTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -770,18 +813,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.CarTest3" />
       <item index="1" class="java.lang.String" itemvalue="Application.PersonTest" />
       <item index="2" class="java.lang.String" itemvalue="Application.PersonTest2" />
       <item index="3" class="java.lang.String" itemvalue="Application.SmartPhoneTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DBTest" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.SmartPhoneTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PersonTest2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PersonTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CarTest3" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.DBTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SmartPhoneTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PersonTest2" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PersonTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CarTest3" />
       </list>
     </recent_temporary>
   </component>
@@ -836,7 +881,9 @@
       <workItem from="1494568381030" duration="2038000" />
       <workItem from="1494903987861" duration="2666000" />
       <workItem from="1495001219133" duration="41000" />
-      <workItem from="1495001916220" duration="1043000" />
+      <workItem from="1495001916220" duration="1062000" />
+      <workItem from="1495066654386" duration="199000" />
+      <workItem from="1495606230631" duration="966000" />
     </task>
     <task id="LOCAL-00001" summary="github">
       <created>1489121968635</created>
@@ -1006,11 +1053,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495002175229</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="SmartPhone">
+      <created>1495003360972</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1495003360972</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48202000" />
+    <option name="totallyTimeSpent" value="49386000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1019,13 +1073,13 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852387" sideWeight="0.48538622" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32821077" sideWeight="0.48333332" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32381997" sideWeight="0.5671875" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32821077" sideWeight="0.51666665" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32381997" sideWeight="0.4328125" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32381997" sideWeight="0.43072918" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.49375" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32601535" sideWeight="0.33645833" order="9" side_tool="false" content_ui="tabs" />
@@ -1056,7 +1110,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="github" />
     <MESSAGE value="SmartPhone" />
-    <option name="LAST_COMMIT_MESSAGE" value="SmartPhone" />
+    <MESSAGE value="DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="DB" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1069,34 +1124,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaPractice.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaPractice/src/org/dimigo/basic/PrimitiveDataType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaPractice/src/org/dimigo/basic/Operator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaPractice.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaPractice/src/org/dimigo/basic/PrimitiveDataType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
@@ -1356,10 +1383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding>
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1367,7 +1390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1375,7 +1397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1383,18 +1404,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaPractice/src/org/dimigo/abstractclass/Galaxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="e#204#205#0" expanded="false" />
+            <element signature="e#248#249#0" expanded="false" />
+            <element signature="e#271#272#0" expanded="false" />
+            <element signature="e#322#323#0" expanded="false" />
+            <element signature="e#361#362#0" expanded="false" />
+            <element signature="e#415#416#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1402,22 +1426,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="e#204#205#0" expanded="false" />
+            <element signature="e#248#249#0" expanded="false" />
+            <element signature="e#271#272#0" expanded="false" />
+            <element signature="e#322#323#0" expanded="false" />
+            <element signature="e#352#353#0" expanded="false" />
+            <element signature="e#408#409#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaPractice/src/org/dimigo/abstractclass/SmartPhone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#396#397#0" expanded="false" />
+            <element signature="e#450#451#0" expanded="false" />
+            <element signature="e#477#478#0" expanded="false" />
+            <element signature="e#531#532#0" expanded="false" />
+            <element signature="e#803#804#0" expanded="false" />
+            <element signature="e#900#901#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaPractice/src/org/dimigo/abstractclass/SmartPhoneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="253">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaPractice/src/org/dimigo/interfaces/OracleDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaPractice/src/org/dimigo/interfaces/SybaseDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaPractice/src/org/dimigo/interfaces/DBTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaPractice/src/org/dimigo/interfaces/IDBManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding />
         </state>
       </provider>
