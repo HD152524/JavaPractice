@@ -23,9 +23,9 @@ public class Movie {
     public void buyTicket(int age){
         if (age<limitAge){
             try {
-                throw new AgeCheckException(this);
+                throw new Exception(title+"은/는 "+limitAge+"세 이상 관람가입니다.");
             }
-            catch(AgeCheckException e)
+            catch(Exception e)
             {
                 System.out.println(e.getMessage());
             }
