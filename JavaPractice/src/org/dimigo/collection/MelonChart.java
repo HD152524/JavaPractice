@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class MelonChart {
     public static void main(String[] args) {
-        List<Music> list = new ArrayList<Music>();
+        List<Music> list = new ArrayList<>();
         System.out.println("-- << 멜론 차트 >> --");
         list.add(new Music("I LUV IT", "PSY"));
         list.add(new Music("맞지?","언니쓰"));
