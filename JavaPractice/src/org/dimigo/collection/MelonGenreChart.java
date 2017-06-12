@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * Created by pc on 2017-06-05.
  */
-public class MusicGenreChart {
+public class MelonGenreChart {
     public static void main(String[] args) {
         Map<String, List<Music>> map = new HashMap<>();
         List<Music> ballade =  new ArrayList<>(), dance = new ArrayList<>();
